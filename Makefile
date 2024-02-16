@@ -15,7 +15,6 @@ SRCS = ft_isascii.c ft_memset.c ft_strdup.c ft_strtrim.c ft_isdigit.c ft_putchar
 
 SRC = $(addprefix $(SRC_PATH)/, $(SRCS))
 
-#OBJ = $(SRC:.c=.o)
 OBJS_PATH = ./objs
 OBJS_NAMES = $(SRC:.c=.o)
 
@@ -33,7 +32,6 @@ BONUS_SRCS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstadd_b
 BONUS_SRC = $(addprefix $(SRC_PATH)/, $(BONUS_SRCS))
 
 BONUS_OBJS_NAMES = $(BONUS_SRC:.c=.o)
-#BONUS_OBJ = $(BONUS_SRC:.c=.o)
 
 BONUS_OBJ = $(patsubst $(SRC_PATH)%,%,$(filter $(SRC_PATH)%,$(BONUS_OBJS_NAMES)))
 

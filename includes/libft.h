@@ -25,6 +25,7 @@ typedef struct s_list
 	void			*content;
 	struct s_list	*next;
 }	t_list;
+
 int			ft_toupper(int c);
 int			ft_lstsize(t_list *lst);
 int			ft_isascii(int c);

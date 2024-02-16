@@ -6,7 +6,7 @@
 /*   By: uaupetit <uaupetit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/10 11:37:21 by uaupetit          #+#    #+#             */
-/*   Updated: 2024/02/16 13:55:15 by uaupetit         ###   ########.fr       */
+/*   Updated: 2024/02/16 17:19:09 by uaupetit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ size_t	ft_strlcat(char *dest, const char *src, size_t n)
 	dest[len_dest + i] = '\0';
 	return (len_max);
 }
+
 /*
 int     main()
 {
